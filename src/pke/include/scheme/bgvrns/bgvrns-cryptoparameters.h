@@ -116,7 +116,6 @@ public:
     }
   }
 
-  std::string SerializedObjectName() const override { return "CryptoParametersBGVRNS"; }
   static uint32_t SerializedVersion() { return 1; }
 };
 
